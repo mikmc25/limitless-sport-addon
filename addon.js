@@ -84,7 +84,19 @@ async function getManifest(url) {
 	});
         }
 
-    const manifest = {"id":"org.community.hostcloud.network","version":"1.0.0","name":"hostcloud.network IPTV","description":"You will access to your hostcloud.network IPTV with this addon!","idPrefixes":["hdk:"],"resources":["catalog","meta","stream"],"types":["tv"],"behaviorHints":{"configurable":true,"configurationRequired":false},"catalogs": [
+    const manifest = {
+  "id": "org.community.hymf.network",
+  "version": "1.0.0",
+  "name": "hy.mfvod",
+  "description": "You will access to your Mediafusion VOD with this addon!",
+  "idPrefixes": ["hdk:"],
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["tv"],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  },
+  "catalogs": [
     {"id": "518", "name": "WORLD CUP CRICKET 2023 HIGHLIGHTS", "type": "series"},
     {"id": "276", "name": "INDIAN Reality Shows", "type": "series"},
     {"id": "106", "name": "NETFLIX", "type": "series"},
