@@ -1,5 +1,5 @@
 {
-  "name": "Home screen tv",
+  "name": "your-iptv-1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,12 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.6.7",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "node-cache": "^5.1.2"
-  },
-  "devDependencies": {
-    "eslint": "^8.48.0"
   }
 }
